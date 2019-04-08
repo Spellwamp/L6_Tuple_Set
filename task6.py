@@ -21,7 +21,7 @@ for i in range(len(final)):
 #         if tuples[i][j] in 'aeiouy':
 #             final.append(tuples[i][j])
 #             continue
-            print(tuples[i][j], end='')
+#            print(tuples[i][j], end='')
         # print(tuples[i][j], end=' ')
 # final = tuple(final)
 # print()
