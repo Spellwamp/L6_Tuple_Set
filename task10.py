@@ -14,8 +14,6 @@ for i in range(len(my_list)):
     if my_list[i] in my_list2 and not 47 < ord(my_list[i]) < 58:
         res_1.add(my_list[i])
     elif my_list[i] not in my_list2 and not 47 < ord(my_list[i]) < 58: res_2.add(my_list[i])
-res_l = list(res_1)
-res_l_2 = list(res_2)
-res_l.sort()
-res_l_2.sort()
+res_l = sorted(res_1)
+res_l_2 = sorted(res_2)
 print(res_l, res_l_2)
